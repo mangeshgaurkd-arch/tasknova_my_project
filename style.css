@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+  background-color: #488dfc, #af64f5;
+  background: linear-gradient(to right, #5f9af9, #a141fb);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background: green;
+  color: white;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+}
+
+.edit-btn {
+  background: rgb(237, 237, 37);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  background: #f4f4f4;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.pending {
+  color: red;
+  font-weight: bold;
+}
+
+.stats {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark {
+  background: #222;
+  color: white;
+}
+
+.dark .container {
+  background: #333;
+}
+
+.dark li {
+  background: #444;
+}
+#101{
+    background-size: cover;
+        height: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+}
